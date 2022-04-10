@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    font-family:Arial;
+}
+
+.top-section{
+    height:80vh;
+    background-color:#79c7ee;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-inner{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d6;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:2em;
+    padding-top:50px;
+text-align: center;}
+
+@media screen and (min-width: 750px) {
+    .top-inner{
+        padding-left:5em;
+    }
+}
+
+
+.top-inner>div{
+    margin-top:20vh;
+    color:#fff;
+    z-index:1;
+}
+
+
+.top-section>div:nth-child(1)>img{
+    width:100%;
+}
+
+
+.rich-section{
+    padding: 2em 2em 3em 2em;
+    text-align:center;
+    position:relative;
+background-color: #262626;color: #fff;}
+
+.rich-section>h2{
+    position:relative;
+    margin: 1.2em;
+}
+
+.rich-section>h2:after{
+    content:"";
+    width:100px;
+    height: 2px;
+    background-color: #00887b;
+    bottom: -0.5em;
+    position: absolute;left:50%;
+    margin-left:-50px;
+}
+
+/*link jump marker*/
+.marker{
+    position:absolute;
+    top:-30vh;
+}
+
+
+footer{
+    background-color: #161718;
+    text-align:center;
+    padding: 4em 1em;
+    color: #fff;
+}
+
+
+
+.rich_button, .rich_button2, .rich_button3, .rich_cog{
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+    box-sizing:border-box;
+}
+
+.rich_button{
+    background:linear-gradient(90deg, rgba(114,72,212,1) 0%, rgba(251,75,85,1) 100%);
+    height:30px;
+    line-height:30px;
+    border-radius:20px;
+    text-align:center;
+    padding:0px 1em;
+    margin:10px 20px;
+}
+.rich_cog{
+    background-color:rgba(251,75,85,1);
+    height:30px;
+    width:30px;
+    line-height:30px;
+    border-radius:20px;
+    text-align:center;
+    margin:10px 20px;
+    margin-left:-18px;
+}
+
+
+.rich_button2{
+    background:linear-gradient(90deg, rgba(114,72,212,1) 0%, rgba(251,75,85,1) 100%);
+    height:50px;
+    line-height:50px;
+    border-radius:30px;
+    text-align:center;
+    padding:0px 1em;
+    margin:10px 5px;
+}
+
+.rich_button3{
+    background:#0000;
+    height:50px;
+    line-height:50px;
+    border-radius:30px;
+    text-align:center;
+    padding:0px 1em;
+    margin:10px 5px;
+    border:1px solid #fff;
+    
+}
